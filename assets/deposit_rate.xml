@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<deposit>
+    <!-- 通知存款年利率 -->
+    <moneycall>
+        <item key="提前一天通知">0.8</item>
+     	<item key="提前七天通知">1.35</item>
+    </moneycall>
+    
+    <!-- 活期储蓄利率  -->
+    <moneycurrent>
+        <item key="年利率">0.35</item> 
+    </moneycurrent>
+    
+     <!-- 活期储蓄利率  -->
+    <moneylumplump>
+        <item key="三个月">2.6</item> 
+     	<item key="半年">2.8</item> 
+     	<item key="一年">3</item> 
+     	<item key="两年">3.75</item> 
+     	<item key="三年">4.25</item> 
+     	<item key="五年">4.75</item> 
+    </moneylumplump>
+    
+    <!-- 整存零取  -->
+    <moneylumpsmall>
+        <item key="一年">2.85</item> 
+     	<item key="三年">2.9</item> 
+     	<item key="五年">3</item> 
+    </moneylumpsmall>
+     
+    <!-- 零存整取  -->
+    <moneysmalllump>
+        <item key="一年">2.85</item> 
+     	<item key="三年">2.9</item> 
+     	<item key="五年">3</item> 
+    </moneysmalllump>
+     
+    <!-- 存本取息  -->
+    <moneyinterest>
+        <item key="一年">2.85</item> 
+     	<item key="三年">2.9</item> 
+     	<item key="五年">3</item> 
+    </moneyinterest>
+    
+    <deposit>
+        <item key="利息税">0</item>
+    </deposit>
+</deposit>
